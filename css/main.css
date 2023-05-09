@@ -28,12 +28,12 @@ body {
     font-family: 'Helvetica Neue', sans-serif; /* A sans-serif font similar to the Star Wars logo */
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
     color: #FFE81F; /* Yellow color */
-    text-shadow: 2px 2px #000; /* Add a black shadow to the text */
-    font-size: 100px;
+    text-shadow: 0.125rem 0.125rem #000; /* Add a black shadow to the text */
+    font-size: 6.25rem;
     text-align: center;
-    margin: 10px 0;
+    margin: 0.625rem 0;
   }
 
   #quoteDisplay {
