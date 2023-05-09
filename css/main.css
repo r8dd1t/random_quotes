@@ -49,17 +49,17 @@ body {
   }
 
  .btn {
-    margin: 10px auto;
+    margin: 0.625rem auto;
     display: inline-block;
-    padding: 10px 20px;
-    border: 2px solid #FFE81F; /* Yellow border */
-    border-radius: 50px; /* Rounded shape */
+    padding: 0.625rem 1.25rem;
+    border: 0.125rem solid #FFE81F; /* Yellow border */
+    border-radius: 3.125rem; /* Rounded shape */
     background-color: #000; /* Black background */
     color: #FFE81F; /* Yellow text */
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
     text-decoration: none;
     text-align: center;
     transition: all 0.3s ease-in-out;
@@ -68,5 +68,5 @@ body {
   .btn:hover {
     background-color: #FFE81F; /* Yellow background */
     color: #000; /* Black text */
-    transform: translateY(-5px); /* Move the button up a little bit on hover */
+    transform: translateY(-0.313rem); /* Move the button up a little bit on hover */
   }  
