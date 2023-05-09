@@ -1,0 +1,66 @@
+body {
+    color: #fff; /* Set the font color to white */
+    font-family: 'Roboto', sans-serif; /* Use a futuristic font */
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../images/starwars_background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 85%;
+    width: 80%;
+    margin:auto;
+  }
+  
+  .container h1 {
+    font-family: 'Helvetica Neue', sans-serif; /* A sans-serif font similar to the Star Wars logo */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #FFE81F; /* Yellow color */
+    text-shadow: 2px 2px #000; /* Add a black shadow to the text */
+    font-size: 100px;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  #quoteDisplay {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgba(133, 229, 238, 0.281);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(131, 238, 255, 3);
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+
+ .btn {
+    margin: 10px auto;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #FFE81F; /* Yellow border */
+    border-radius: 50px; /* Rounded shape */
+    background-color: #000; /* Black background */
+    color: #FFE81F; /* Yellow text */
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #FFE81F; /* Yellow background */
+    color: #000; /* Black text */
+    transform: translateY(-5px); /* Move the button up a little bit on hover */
+  }  
